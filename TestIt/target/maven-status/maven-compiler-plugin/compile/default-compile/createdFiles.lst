@@ -1,0 +1,3 @@
+testit/app/login/LoginController.class
+testit/app/login/UserNotAuthenticatedException.class
+testit/app/login/LoginService.class

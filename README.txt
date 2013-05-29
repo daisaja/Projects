@@ -10,7 +10,6 @@ Thema: "Spock - Best Practices"
 
 
 Randbedingungen schaffen :
-
 fertige Testklassen schreiben und als Exit Szenario vorhalten
 
 Zusätzlich:

@@ -1,13 +1,6 @@
-package testit.app.login
+package testit.app.login.v1
 
 import spock.lang.Specification
 
 class LoginControllerTest extends Specification {
-
-    void testCommit(){
-
-        assert 1 == 1
-    }
-
-
 }

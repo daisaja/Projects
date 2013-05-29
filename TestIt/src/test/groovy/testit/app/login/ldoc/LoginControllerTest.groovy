@@ -1,4 +1,4 @@
-package testit.app.login
+package testit.app.login.ldoc
 
 import spock.lang.Specification
 
@@ -8,6 +8,4 @@ class LoginControllerTest extends Specification {
 
         assert 1 == 1
     }
-
-
 }

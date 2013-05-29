@@ -49,7 +49,7 @@
     <build>
         <finalName>testit-${project.version}</finalName>
         <sourceDirectory>src/main/groovy</sourceDirectory>
-        <testSourceDirectory>>src/test/groovy</testSourceDirectory>
+        <testSourceDirectory>src/test/groovy</testSourceDirectory>
 
         <plugins>
             <plugin>
@@ -76,9 +76,6 @@
                 <version>${surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
-                    <includes>
-                        <include>**/*Test.*</include>
-                    </includes>
                 </configuration>
             </plugin>
         </plugins>

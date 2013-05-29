@@ -64,3 +64,9 @@ class LoginControllerTest extends Specification {
     }
 
 }
+
+/**
+ * expect: wird verwendet für void Methodenaufruf
+ * thrown(): zum abfangen von erwarteten Exception
+ * loginServiceDeniesAccessFor und loginServiceAllowsAccessFor UseCase-spezifische given-Methoden
+ */

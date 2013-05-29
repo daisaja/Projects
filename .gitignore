@@ -1,11 +1,5 @@
 .DS_Store
-.svn
-BetterProgrammer
-GroovyDSL
-TestScala
-deployment-scripts
-test
-TestIt/.classpath
-TestIt/.project
-TestIt/.settings/
-TestIt/target
+.classpath
+.project
+.settings
+target

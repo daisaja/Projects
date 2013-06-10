@@ -12,8 +12,9 @@ import testit.app.login.LoginService
 @ConfluencePath("LDT/Confluence Importer Tests")
 @HeaderName("Test eines LogIn Dienstes")
 
-@Narrative(role ="Als Betreiber eines Login Dienstes", action=" möchte ich sicherstellen dass man die LogIn Funktionalität,",
-        expect=" um mich nur mit validen Anmeldedaten anmelden zu können ")
+@Narrative(role ="Als Betreiber eines Login Dienstes",
+           action=" möchte ich sicherstellen dass man die LogIn Funktionalität,",
+           expect=" um mich nur mit validen Anmeldedaten anmelden zu können ")
 
 
 class LoginServiceTest extends Specification {

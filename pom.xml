@@ -18,7 +18,7 @@
 
         <!-- TEST DEPENDENCIES -->
         <spock.version>0.7-groovy-2.0</spock.version>
-        <cglib.version>2.2.2</cglib.version>
+        <cglib.version>3.0</cglib.version>
 
         <!-- PLUGINS -->
         <compiler.version>3.1</compiler.version>
@@ -47,6 +47,14 @@
 			<version>${cglib.version}</version>
 			<scope>compile</scope>
 	    </dependency>
+
+
+        <dependency>
+            <groupId>de.deutschepost.ldoc</groupId>
+            <artifactId>ldoc-tools</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>
